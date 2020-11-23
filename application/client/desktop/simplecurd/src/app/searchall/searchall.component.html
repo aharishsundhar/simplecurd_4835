@@ -1,0 +1,19 @@
+<h2>Searchall</h2>
+<form class='form'>
+<div  class=' form-group'>
+<label  class=' label'>Name</label>
+<input  class=' input form-control' placeholder='Type here your name' name=input_template-ip52/>
+</div>
+<div  class=' form-group'>
+<label  class=' label'>Email</label>
+<input  class=' input form-control' type='email' placeholder='Type here your email' name=input_template-is2y/>
+</div>
+<div  class=' form-group'>
+</div>
+<div  class=' form-group'>
+<button  class=' button btn btn-primary' type='submit' name=button_template-iumle>Search</button>
+</div>
+</form>
+<div class='template-i64ph' name=grid_template-i64ph>
+<ag-grid-angular #agGrid style="width: 100%; height: 100%;" id="myGrid" class="ag-theme-balham" [columnDefs]="columnDefs" [pagination]="true" [paginationPageSize]="paginationPageSize" [defaultColDef]="defaultColDef" [rowData]="rowData" [rowSelection]="rowSelection" (gridReady)="onGridReady($event)" domLayout='autoHeight'></ag-grid-angular>
+</div>
